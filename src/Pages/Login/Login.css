@@ -1,0 +1,240 @@
+@import "../../assets/common.css";
+
+@media only screen and (max-width: 768px) {
+    .heroImageContainer {
+        display: none;
+    }
+
+    .heroImageContainer img {
+        display: none;
+    }
+
+    .loginContainer {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .loginHeader {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .loginHeader span:nth-child(1) {
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 48px;
+        color: var(--text);
+    }
+
+    .loginHeader span:nth-child(2) {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        color: var(--text-light);
+    }
+
+    .optionsContainer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .loggedIn {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        color: var(--text);
+        font-size: 11px;
+    }
+
+    .loggedIn input {
+        width: 20px;
+        height: 20px;
+    }
+
+    .forgotPassword {
+        color: var(--primary);
+        font-weight: 700;
+        font-size: 11px;
+        line-height: 16px;
+    }
+
+    .buttonContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .primary-color-btn {
+        background-color: var(--primary);
+        color: white;
+        width: 90%;
+    }
+
+    .orContainer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 90%;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .orContainer .divider {
+        height: 1px;
+        background-color: var(--text-light);
+        width: 45%;
+    }
+
+    .orContainer span {
+        font-size: 11px;
+        font-weight: 400;
+        color: var(--text-light);
+    }
+
+    .sso-btn {
+        font-size: 11px;
+        font-weight: 400;
+        color: var(--text-light);
+        background-color: transparent;
+        outline: transparent;
+        border: 1px solid var(--text-light);
+        width: 90%;
+    }
+
+    .sso-btn img {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    .LoginPage {
+        display: flex;
+    }
+
+    .heroImageContainer {
+        width: 65%;
+        height: 100vh;
+    }
+
+    .heroImageContainer img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .loginContainer {
+        width: 35%;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .loginHeader {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .loginHeader span:nth-child(1) {
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 48px;
+        color: var(--text);
+    }
+
+    .loginHeader span:nth-child(2) {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        color: var(--text-light);
+    }
+
+    .optionsContainer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .loggedIn {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        color: var(--text);
+        font-size: 11px;
+    }
+
+    .loggedIn input {
+        width: 20px;
+        height: 20px;
+    }
+
+    .forgotPassword {
+        color: var(--primary);
+        font-weight: 700;
+        font-size: 11px;
+        line-height: 16px;
+    }
+
+    .buttonContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .primary-color-btn {
+        background-color: var(--primary);
+        color: white;
+        width: 90%;
+    }
+
+    .orContainer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 90%;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .orContainer .divider {
+        height: 1px;
+        background-color: var(--text-light);
+        width: 45%;
+    }
+
+    .orContainer span {
+        font-size: 11px;
+        font-weight: 400;
+        color: var(--text-light);
+    }
+
+    .sso-btn {
+        font-size: 11px;
+        font-weight: 400;
+        color: var(--text-light);
+        background-color: transparent;
+        outline: transparent;
+        border: 1px solid var(--text-light);
+        width: 90%;
+    }
+
+    .sso-btn img {
+        width: 30px;
+        height: 30px;
+    }
+}

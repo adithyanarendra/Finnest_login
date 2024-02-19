@@ -1,0 +1,14 @@
+:root {
+    --primary: #b360f4;
+    --primary-rgb: rgb(179, 96, 244);
+    --primary-light: ;
+    --primary-light-rgb: ;
+    --primary-dark: ;
+    --primary-dark-rgb: ;
+    --text: #000000;
+    --text-rgb: rgb(0, 0, 0);
+    --text-light: #818181;
+    --text-light-rgb: rgb(129, 129, 129);
+    --border: #d1d1d1;
+    --border-rgb: rgb(209, 209, 209);
+}

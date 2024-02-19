@@ -1,0 +1,13 @@
+@import './assets/common.css';
+
+#root {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+* {
+  background-color: white;
+  font-family: 'Poppins', sans-serif;
+}
