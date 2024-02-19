@@ -54,9 +54,10 @@
         font-size: 11px;
     }
 
-    .loggedIn input {
+    .loggedIn input[type=checkbox] {
         width: 20px;
         height: 20px;
+        accent-color: pink;
     }
 
     .forgotPassword {
