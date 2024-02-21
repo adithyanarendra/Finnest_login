@@ -5,7 +5,7 @@ const Content = () => {
     return (
         <>
             <ContentHeader />
-            <Container></Container>
+            <Container />
         </>
     );
 };

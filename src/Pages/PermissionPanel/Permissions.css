@@ -1,0 +1,17 @@
+@import '../../assets/common.css';
+
+.nav-color {
+    background-color: #510580;
+}
+
+.nav-text {
+    color: white;
+}
+
+.nav-width {
+    width: 100%;
+}
+
+.content-bg {
+    background-color: #FAF9FF;
+}
